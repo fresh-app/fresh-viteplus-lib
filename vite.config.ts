@@ -5,8 +5,9 @@ export default defineConfig({
     "*": "vp check --fix",
   },
   pack: {
+    deps: { resolveDepSubpath: true },
     dts: {
-      tsgo: true,
+      generator: "tsgo",
     },
     exports: true,
   },
