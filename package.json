@@ -34,14 +34,13 @@
   "devDependencies": {
     "@types/node": "^26.6.5",
     "@typescript/native-preview": "7.0.0-dev.20260707.2",
-    "bumpp": "^12.3.0",
     "typescript": "^7.0.2",
     "vite-plus": "catalog:"
   },
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
-      "version": "12.14.0",
+      "version": "12.18.0",
       "onFail": "download"
     }
   }
